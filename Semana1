@@ -1,0 +1,22 @@
+precio_sindcto = 25000
+peso_compra = 2.5
+
+print("El precio sin descuento es: " + str(precio_sindcto))
+print("El peso de la compra es: " + str(peso_compra))
+
+
+if peso_compra >10:
+  precio_condcto = precio_sindcto*0.6
+  print("El cliente cancela " + str(precio_condcto) + " con un 40% de descuento")
+
+elif peso_compra >5:
+  precio_condcto = precio_sindcto*0.7
+  print("El cliente cancela " + str(precio_condcto) + " con un 30% de descuento")
+
+elif peso_compra >2:
+  precio_condcto = precio_sindcto*0.8
+  print("El cliente cancela " + str(precio_condcto) + " con un 20% de descuento")
+
+elif peso_compra >0:
+  precio_condcto = precio_sindcto*0.9
+  print("El cliente cancela " + str(precio_condcto) + " con un 10% de descuento")
